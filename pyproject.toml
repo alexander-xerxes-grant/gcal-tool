@@ -1,0 +1,24 @@
+[project]
+name = "gcal-tool"
+version = "0.1.0"
+description = "A short description of your project"
+authors = [{name = "Alex Grant", email = "alexander-x-grant@gmail.com"}]
+dependencies = []
+
+[tool.pytest.ini_options]
+addopts = "-v -s"
+testpaths = ["tests"]
+
+[tool.black]
+line-length = 88
+target-version = ['py312']
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.ruff]
+select = ["E", "F", "B", "I"]
+ignore = []
+line-length = 88
+target-version = "py312"
