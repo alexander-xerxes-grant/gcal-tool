@@ -15,7 +15,7 @@ To set up this project, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/alexander-x-grant/gcal-tool.git
+   git clone https://github.com/alexander-xerxes-grant/gcal-tool.git
    cd gcal-tool
    ```
 
