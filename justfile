@@ -8,7 +8,7 @@ default:
 # Set up the project
 setup:
     uv venv
-    . .venv/bin/activate && uv pip install -r requirements.txt
+    uv pip install -e .
     pre-commit install
 
 # Format the code

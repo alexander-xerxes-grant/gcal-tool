@@ -3,7 +3,13 @@ name = "gcal-tool"
 version = "0.1.0"
 description = "A short description of your project"
 authors = [{name = "Alex Grant", email = "alexander-x-grant@gmail.com"}]
-dependencies = []
+dependencies = [
+    "pytest",
+    "black",
+    "isort",
+    "ruff",
+    "pre-commit",
+]
 
 [tool.pytest.ini_options]
 addopts = "-v -s"
