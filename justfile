@@ -13,12 +13,17 @@ setup:
 
 # Format the code
 format:
-    black src tests
-    isort src tests
+    black .
+    isort .
 
 # Lint the code
 lint:
-    ruff src tests
+    ruff check
+
+# Fix linted code
+lint-fix:
+    just format
+    ruff check --fix
 
 # Run tests
 test:

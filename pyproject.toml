@@ -24,7 +24,7 @@ profile = "black"
 line_length = 88
 
 [tool.ruff]
-select = ["E", "F", "B", "I"]
-ignore = []
+lint.select = ["E", "F", "B", "I"]
+lint.ignore = []
 line-length = 88
 target-version = "py312"
