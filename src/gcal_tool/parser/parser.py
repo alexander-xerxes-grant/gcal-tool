@@ -21,7 +21,6 @@ class CalendarEvent:
     event_summary: str
     start_time: datetime
     end_time: datetime
-    calendar_id: str | None = None  # Optional with a default of None
 
     def __post_init__(self) -> None:
         """Validate the event times after intialisation."""
