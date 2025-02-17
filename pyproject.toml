@@ -10,6 +10,7 @@ dependencies = [
     "ruff",
     "pre-commit",
 ]
+requires-python = ">=3.12,<3.13"
 
 [tool.pytest.ini_options]
 addopts = "-v -s"
