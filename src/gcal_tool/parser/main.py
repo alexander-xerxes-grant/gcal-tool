@@ -1,6 +1,5 @@
 """Parser for Google Calendar events."""
 
-import json
 from dataclasses import dataclass
 from datetime import datetime
 
@@ -29,7 +28,6 @@ class CalendarEvent:
                 f"End time ({self.end_time})"
                 f"must be after start time({self.start_time})."
             )
-
 
 
 class GoogleCalendarClient:
